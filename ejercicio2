@@ -1,1 +1,32 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Threading;
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class Gamemanager : MonoBehaviour
+{
+    public int Count = 20;
+
+    void Start()
+    {
+        while (Count > 20)
+        {
+            Debug.Log("Cuenta Regresiva :" + Count);
+            Count--;
+        }
+        do
+        {
+            Debug.Log("cuenta regresiva :" + Count);
+            Count--;
+        }
+        while (Count > 0);
+    }
+void Update()
+        {
+
+        }
+    
+}
 
