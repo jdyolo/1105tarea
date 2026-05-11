@@ -1,1 +1,28 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Threading;
+using Unity.VisualScripting;
+using UnityEngine;
 
+public class Gamemanager : MonoBehaviour
+{
+  
+    void Start()
+
+    {
+        int monedas = 0;
+        while (monedas < 100) ;
+        {
+            monedas += 10;
+            Debug.Log("Monedas : " + monedas);
+            Debug.Log("Logrado");
+        }
+        
+    }
+    void Update()
+        {
+
+        }
+    
+}
