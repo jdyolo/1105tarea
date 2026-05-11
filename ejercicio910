@@ -1,1 +1,37 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Threading;
+using Unity.VisualScripting;
+using UnityEngine;
+using UnityEngine.Video;
 
+public class Gamemanager : MonoBehaviour
+{
+  
+    void Start()
+
+    {
+        string[] pociones = { "vida", "mana", "Fuerza", "velociodad" };
+
+        int i = 0;
+        int cantidad = 0;
+
+        while (i < pociones.Length)
+
+        {
+            cantidad++;
+            i++;
+        }
+        {
+            Debug.Log("Cantidad de pociones: " + cantidad);
+        }
+        }
+        
+    
+    void Update()
+        {
+
+        }
+    
+}
