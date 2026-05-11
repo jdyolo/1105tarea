@@ -1,1 +1,27 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Threading;
+using Unity.VisualScripting;
+using UnityEngine;
 
+public class Gamemanager : MonoBehaviour
+{
+  
+    void Start()
+
+    {
+        int energia = 100;
+       while (energia >= 0 )
+        {
+           Debug.Log("energia: " + energia);
+            energia -= 10;
+        }
+
+    }
+    void Update()
+        {
+
+        }
+    
+}
