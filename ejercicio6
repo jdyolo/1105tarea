@@ -1,1 +1,33 @@
+using System.Net.NetworkInformation;
+using UnityEngine;
+using System.Collections.Generic;
+
+public class Gamemanager : MonoBehaviour
+{
+    public List<string> nombres = new List<string>() { "caballero maldito", "esqueleto", "Dragon" };
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+
+        //Debug.Log(nombres[nombres.Count - 1]);
+        int i = 0;
+
+        while (i < nombres.Count)
+        {
+
+            Debug.Log(nombres[i]);
+            if (nombres[i] == "Dragon")
+            {
+                Debug.Log("El elemto Dragon se encuentra en la posicion " + i);
+            }
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+    }
+}
 
