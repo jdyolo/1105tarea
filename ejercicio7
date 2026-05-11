@@ -1,1 +1,30 @@
 
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Threading;
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class Gamemanager : MonoBehaviour
+{
+    public List<string> inventario = new List<string>() { "Espada", "posciones", "reliquias" };
+    int i = 0;
+
+    
+    void Start()
+    {
+        while (i < inventario.Count)
+        Debug.Log(inventario.Count);
+        Debug.Log(inventario[i]);
+           
+        }
+     
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+    
+}
