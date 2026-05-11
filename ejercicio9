@@ -1,1 +1,28 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Threading;
+using Unity.VisualScripting;
+using UnityEngine;
 
+public class Gamemanager : MonoBehaviour
+{
+  
+    void Start()
+
+    {
+        string contraseña = "";
+        do
+        {
+            Debug.Log("ingrensado contraseña ");
+            contraseña = "admin";
+
+        }
+        while (contraseña != "admin");
+        Debug.Log("contraseña correcta");
+    }
+    void Update()
+        {
+
+        }
+    
